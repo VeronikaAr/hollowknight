@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+{% block head %}
+<link rel="stylesheet" href="static/css/order_list.css">
+{% endblock %}
+
+{% block content %}
+<p>
+    Заказ оформлен на имя {{name}}, по адресу {{adress}};
+</p>
+<p>
+    Доставка запланирована на {{date}};
+</p>
+<p>
+    Данные для связи: {{mail}};
+</p>
+<p>
+    Код Мульти_Вселенной: {{code}};
+</p>
+<p>
+    Тип доставки: {{delivery_type}};
+</p>
+{% endblock %}

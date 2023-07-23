@@ -1,0 +1,42 @@
+table {
+    margin: 15px auto; /* Сверху и снизу таблицы отступы 15 пикселей, auto - центрирует таблицу */
+    font-size: 23px;
+    font-family: Courier New Bold Italic; /* Подключаем красивый шрифт */
+    width: 90%; /* Ширина таблицы относительно всей страницы */
+    border: double 9px #778899; /* Создаем двойную границу с толщиной 5 пикселей */
+    background-color: #FFFFFF;
+    
+    color: black;
+    font-family: Georgia, "Times New Roman";
+}
+
+footer { 
+ position: relative; /* Относительное позиционирование */
+}
+
+table th,
+table td {
+    padding: 12px 15px; 
+    
+}
+
+table tr:nth-of-type(odd) { /* Каждый нечетный элемент имеет фоновый цвет */
+    background: #F8FBFF;
+}
+
+table tr:nth-of-type(even) { /* Каждый четный элемент имеет фоновый цвет #ecf0f1 */
+    background-color: #f7fbfc;
+}
+
+table tr:nth-of-type(even) { /* Каждый четный элемент имеет фоновый цвет #ecf0f1 */
+    background-color: #f7fbfc;
+}
+table tr:hover{ /* При наведении на строчку меняем цвет фона и текста */
+    background-color: #d8e5f2;
+    color: black;
+}
+
+.examplethree {
+  background-color: #002A38;
+  color: #FFFFFF;
+}

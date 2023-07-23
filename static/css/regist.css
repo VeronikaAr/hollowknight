@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-image: url('../images/white_king_.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover; /* Фон занимает всю доступную площадь */
+    
+    font-family: Georgia, "Times New Roman";
+    color: #FFFFFF;
+}
+
+.form {
+    text-align: center;
+    display: list-item;
+    list-style-type : none;
+    margin-top      : 1%;
+    padding         : 0;
+    overflow        : hidden;
+    background-color: transparent;
+}
+
+.form li {
+    float     : none;
+    margin-top: 15px;
+}
+
+.form li a {
+    display        : block;
+    color          : white;
+    text-align     : center;
+    padding        : 14px 16px;
+    text-decoration: none;
+}
+
+.form li a:hover {
+    background-color: none;
+}
+
+button {
+    margin-top: 20px; /* Добавляем немного расстояния между input и кнопкой */
+}
+
+.a1 {
+    display: block;
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-decoration: none;
+}

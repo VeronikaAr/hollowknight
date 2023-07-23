@@ -1,0 +1,32 @@
+{% block head %}
+    <link rel="stylesheet" href= "static/css/regist.css">
+    <title>Регистрация</title>
+{% endblock %}
+
+<form action='/regist' method='post'>
+    <ul class="form">
+        {{error}}
+    <li>
+    <input type = 'text' name = 'name' placeholder = 'Ваше Имя:'>
+    </li>
+    
+    <li>
+    <input type = 'text' name = 'password' placeholder = 'Ваш Пароль:'>
+    </li>
+    
+    <li>
+    <input type = 'text' name = 'password' placeholder = 'Ваш Пароль(Повтор):'>
+    </li>
+    
+    <li>
+    <input type = 'text' name = 'code' placeholder = 'Укажите код Вашей Мультивселенной:'>
+    </li>
+    
+    <li>
+    <input type = 'text' name = 'phone' placeholder = 'Телефон:'>
+    </li>
+        <li>
+                  <button type="submit">Заригистрироваться</button>
+        </li>
+    </ul>
+</form>

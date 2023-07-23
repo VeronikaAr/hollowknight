@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-image: url('../images/end_.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover; /* Фон занимает всю доступную площадь */
+    
+    font-family: Georgia, "Times New Roman";
+    color: #FFFFFF;
+   } 
+   
+.h1_pos {
+    position: static;
+}

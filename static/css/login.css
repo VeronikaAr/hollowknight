@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-image: url('../images/fon_HK_.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    
+    margin-left: auto; /* Размещаем весь элемент по центру */
+    margin-right: auto;
+    
+    font-family: Georgia, "Times New Roman";
+    color: #FFFFFF;
+}
+
+login-form {
+display: flex;
+  justify-content: center;
+    width: 40%; /* Ширина формы */
+    margin-left: auto; /* Размещаем весь элемент по центру */
+    margin-right: auto;
+    display: flex;  /* Создаем flex контейнер */
+    align-items: center; /* Все элементы будут по центру */
+    flex-direction: column; /* Все элементы будут размещены вертикально */
+}
+
+.form {
+    width: 40%; /* Ширина формы */
+    display: flex;  /* Создаем flex контейнер */
+    flex-direction: column; /* Все элементы будут размещены вертикально */
+    margin-left: auto; /* Размещаем весь элемент по центру */
+    margin-right: auto;
+}
+
+form input {
+display: flex;
+  justify-content: center;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	//margin-left: 40%;
+	width: 23%;
+        height: 15px;
+	border: 1px solid #ff8c00;
+	
+	margin-left: auto; /* Размещаем весь элемент по центру */
+    margin-right: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    width: 20%;
+	font-size: 14pt;
+	color: white;
+	background: #4877B0;
+	height: 55px;
+	padding: 10px;
+	
+	font-family: Georgia, "Times New Roman";
+    color: #FFFFFF;
+}
+
+.a1 {
+display: flex;
+  justify-content: center;
+    display: block;
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-decoration: none;
+    margin-left: auto; /* Размещаем весь элемент по центру */
+    margin-right: auto;
+}

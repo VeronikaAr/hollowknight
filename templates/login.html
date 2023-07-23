@@ -1,0 +1,21 @@
+{% block head %}
+    <link rel="stylesheet" href= "static/css/login.css">
+    <title>Авторизация</title>
+{% endblock %}
+
+
+<form action='/login' method='post'>
+<form>
+<div class="login-form">
+    {{error}}
+<br><input type = 'text' name = 'login' placeholder = 'ФО:'></br>
+<br><input type = 'password' name = 'password' placeholder = 'Пароль(Цифры):'></br>
+<div class='center'>
+<br><button type="submit">Войти</button></br>
+</form>
+</div>
+</div>
+<div class='center'>
+<img src="/static/images/logiin.png"  width="190" height="50" />
+</div>
+<img src="/static/images/login_.png"  width="250" height="250" />
